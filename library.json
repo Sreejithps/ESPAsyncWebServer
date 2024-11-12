@@ -15,21 +15,5 @@
   "version": "1.2.4",
   "license": "LGPL-3.0",
   "frameworks": "arduino",
-  "platforms": ["espressif8266", "espressif32"],
-  "dependencies": [
-    {
-      "owner": "me-no-dev",
-      "name": "ESPAsyncTCP",
-      "platforms": "espressif8266"
-    },
-    {
-      "owner": "me-no-dev",      
-      "name": "AsyncTCP",
-      "platforms": "espressif32"
-    },
-    {
-      "name": "Hash",
-      "platforms": "espressif8266"
-    }
-  ]
+  "platforms": ["espressif8266", "espressif32"]
 }
